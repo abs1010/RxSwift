@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		AFD5BFAF3F49B3DF19889D62 /* Pods_MVVM_RxSwiift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC51F346B431375811FE8513 /* Pods_MVVM_RxSwiift.framework */; };
+		BC5B7EE3255215EB005C8E9A /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5B7EE2255215EB005C8E9A /* AppCoordinator.swift */; };
 		BC6E1F2D2552090F0075B4C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6E1F2C2552090F0075B4C7 /* AppDelegate.swift */; };
 		BC6E1F2F2552090F0075B4C7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6E1F2E2552090F0075B4C7 /* SceneDelegate.swift */; };
 		BC6E1F312552090F0075B4C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6E1F302552090F0075B4C7 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 		9386ACC442ED254C94639378 /* Pods-MVVM_RxSwiift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM_RxSwiift.release.xcconfig"; path = "Target Support Files/Pods-MVVM_RxSwiift/Pods-MVVM_RxSwiift.release.xcconfig"; sourceTree = "<group>"; };
 		9C14584C4B3064DF7049314D /* Pods-MVVM_RxSwiift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM_RxSwiift.debug.xcconfig"; path = "Target Support Files/Pods-MVVM_RxSwiift/Pods-MVVM_RxSwiift.debug.xcconfig"; sourceTree = "<group>"; };
 		AC51F346B431375811FE8513 /* Pods_MVVM_RxSwiift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVM_RxSwiift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC5B7EE2255215EB005C8E9A /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		BC6E1F292552090F0075B4C7 /* MVVM_RxSwiift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVM_RxSwiift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC6E1F2C2552090F0075B4C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC6E1F2E2552090F0075B4C7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,7 +50,6 @@
 				9C14584C4B3064DF7049314D /* Pods-MVVM_RxSwiift.debug.xcconfig */,
 				9386ACC442ED254C94639378 /* Pods-MVVM_RxSwiift.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -81,15 +82,40 @@
 		BC6E1F2B2552090F0075B4C7 /* MVVM_RxSwiift */ = {
 			isa = PBXGroup;
 			children = (
-				BC6E1F2C2552090F0075B4C7 /* AppDelegate.swift */,
-				BC6E1F2E2552090F0075B4C7 /* SceneDelegate.swift */,
-				BC6E1F302552090F0075B4C7 /* ViewController.swift */,
-				BC6E1F322552090F0075B4C7 /* Main.storyboard */,
+				BC6E1F49255211670075B4C7 /* AppDelegate */,
+				BC6E1F4A255211720075B4C7 /* Modules */,
 				BC6E1F35255209120075B4C7 /* Assets.xcassets */,
 				BC6E1F37255209120075B4C7 /* LaunchScreen.storyboard */,
 				BC6E1F3A255209120075B4C7 /* Info.plist */,
 			);
 			path = MVVM_RxSwiift;
+			sourceTree = "<group>";
+		};
+		BC6E1F49255211670075B4C7 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				BC6E1F2C2552090F0075B4C7 /* AppDelegate.swift */,
+				BC6E1F2E2552090F0075B4C7 /* SceneDelegate.swift */,
+				BC5B7EE2255215EB005C8E9A /* AppCoordinator.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		BC6E1F4A255211720075B4C7 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				BC6E1F4B255211800075B4C7 /* Main */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		BC6E1F4B255211800075B4C7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BC6E1F302552090F0075B4C7 /* ViewController.swift */,
+				BC6E1F322552090F0075B4C7 /* Main.storyboard */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC5B7EE3255215EB005C8E9A /* AppCoordinator.swift in Sources */,
 				BC6E1F312552090F0075B4C7 /* ViewController.swift in Sources */,
 				BC6E1F2D2552090F0075B4C7 /* AppDelegate.swift in Sources */,
 				BC6E1F2F2552090F0075B4C7 /* SceneDelegate.swift in Sources */,
@@ -359,6 +386,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VF7VYA94WY;
 				INFOPLIST_FILE = MVVM_RxSwiift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -379,6 +407,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VF7VYA94WY;
 				INFOPLIST_FILE = MVVM_RxSwiift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
