@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		AFD5BFAF3F49B3DF19889D62 /* Pods_MVVM_RxSwiift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC51F346B431375811FE8513 /* Pods_MVVM_RxSwiift.framework */; };
 		BC5B7EE3255215EB005C8E9A /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5B7EE2255215EB005C8E9A /* AppCoordinator.swift */; };
+		BC5B7EEE2552218A005C8E9A /* RestaurantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5B7EED2552218A005C8E9A /* RestaurantModel.swift */; };
+		BC5B7EF3255221AE005C8E9A /* restaurants.json in Resources */ = {isa = PBXBuildFile; fileRef = BC5B7EF2255221AE005C8E9A /* restaurants.json */; };
 		BC6E1F2D2552090F0075B4C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6E1F2C2552090F0075B4C7 /* AppDelegate.swift */; };
 		BC6E1F2F2552090F0075B4C7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6E1F2E2552090F0075B4C7 /* SceneDelegate.swift */; };
 		BC6E1F312552090F0075B4C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6E1F302552090F0075B4C7 /* ViewController.swift */; };
 		BC6E1F342552090F0075B4C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC6E1F322552090F0075B4C7 /* Main.storyboard */; };
 		BC6E1F36255209120075B4C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC6E1F35255209120075B4C7 /* Assets.xcassets */; };
 		BC6E1F39255209120075B4C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC6E1F37255209120075B4C7 /* LaunchScreen.storyboard */; };
+		BCFF4B3A255373BD00BC893C /* RestaurantService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFF4B39255373BD00BC893C /* RestaurantService.swift */; };
+		BCFF4B3D255484DC00BC893C /* RestaurantViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFF4B3C255484DC00BC893C /* RestaurantViewModel.swift */; };
+		BCFF4B402554861F00BC893C /* RestaurantListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFF4B3F2554861F00BC893C /* RestaurantListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,8 @@
 		9C14584C4B3064DF7049314D /* Pods-MVVM_RxSwiift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM_RxSwiift.debug.xcconfig"; path = "Target Support Files/Pods-MVVM_RxSwiift/Pods-MVVM_RxSwiift.debug.xcconfig"; sourceTree = "<group>"; };
 		AC51F346B431375811FE8513 /* Pods_MVVM_RxSwiift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVM_RxSwiift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC5B7EE2255215EB005C8E9A /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		BC5B7EED2552218A005C8E9A /* RestaurantModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantModel.swift; sourceTree = "<group>"; };
+		BC5B7EF2255221AE005C8E9A /* restaurants.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = restaurants.json; sourceTree = "<group>"; };
 		BC6E1F292552090F0075B4C7 /* MVVM_RxSwiift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVM_RxSwiift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC6E1F2C2552090F0075B4C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC6E1F2E2552090F0075B4C7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +37,9 @@
 		BC6E1F35255209120075B4C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC6E1F38255209120075B4C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC6E1F3A255209120075B4C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCFF4B39255373BD00BC893C /* RestaurantService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantService.swift; sourceTree = "<group>"; };
+		BCFF4B3C255484DC00BC893C /* RestaurantViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewModel.swift; sourceTree = "<group>"; };
+		BCFF4B3F2554861F00BC893C /* RestaurantListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +71,42 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BC5B7EEA25522166005C8E9A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BC6E1F302552090F0075B4C7 /* ViewController.swift */,
+				BC6E1F322552090F0075B4C7 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BC5B7EEB2552216C005C8E9A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC5B7EED2552218A005C8E9A /* RestaurantModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC5B7EEC25522171005C8E9A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BCFF4B3C255484DC00BC893C /* RestaurantViewModel.swift */,
+				BCFF4B3F2554861F00BC893C /* RestaurantListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BC5B7EF125522199005C8E9A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BC6E1F37255209120075B4C7 /* LaunchScreen.storyboard */,
+				BC6E1F35255209120075B4C7 /* Assets.xcassets */,
+				BC5B7EF2255221AE005C8E9A /* restaurants.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		BC6E1F202552090F0075B4C7 = {
 			isa = PBXGroup;
 			children = (
@@ -84,8 +130,7 @@
 			children = (
 				BC6E1F49255211670075B4C7 /* AppDelegate */,
 				BC6E1F4A255211720075B4C7 /* Modules */,
-				BC6E1F35255209120075B4C7 /* Assets.xcassets */,
-				BC6E1F37255209120075B4C7 /* LaunchScreen.storyboard */,
+				BC5B7EF125522199005C8E9A /* Resources */,
 				BC6E1F3A255209120075B4C7 /* Info.plist */,
 			);
 			path = MVVM_RxSwiift;
@@ -112,10 +157,20 @@
 		BC6E1F4B255211800075B4C7 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				BC6E1F302552090F0075B4C7 /* ViewController.swift */,
-				BC6E1F322552090F0075B4C7 /* Main.storyboard */,
+				BCFF4B422554A72600BC893C /* Service */,
+				BC5B7EEC25522171005C8E9A /* ViewModel */,
+				BC5B7EEB2552216C005C8E9A /* Model */,
+				BC5B7EEA25522166005C8E9A /* View */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		BCFF4B422554A72600BC893C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				BCFF4B39255373BD00BC893C /* RestaurantService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC5B7EF3255221AE005C8E9A /* restaurants.json in Resources */,
 				BC6E1F39255209120075B4C7 /* LaunchScreen.storyboard in Resources */,
 				BC6E1F36255209120075B4C7 /* Assets.xcassets in Resources */,
 				BC6E1F342552090F0075B4C7 /* Main.storyboard in Resources */,
@@ -233,9 +289,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC5B7EE3255215EB005C8E9A /* AppCoordinator.swift in Sources */,
+				BCFF4B402554861F00BC893C /* RestaurantListViewModel.swift in Sources */,
 				BC6E1F312552090F0075B4C7 /* ViewController.swift in Sources */,
 				BC6E1F2D2552090F0075B4C7 /* AppDelegate.swift in Sources */,
 				BC6E1F2F2552090F0075B4C7 /* SceneDelegate.swift in Sources */,
+				BCFF4B3A255373BD00BC893C /* RestaurantService.swift in Sources */,
+				BC5B7EEE2552218A005C8E9A /* RestaurantModel.swift in Sources */,
+				BCFF4B3D255484DC00BC893C /* RestaurantViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
